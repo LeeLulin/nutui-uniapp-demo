@@ -9,7 +9,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    NutButton: typeof import('nutui-uniapp/components/button/button.vue')['default']
-    NutCalendar: typeof import('nutui-uniapp/components/calendar/calendar.vue')['default']
+    NutIcon: typeof import('nutui-uniapp/components/icon/icon.vue')['default']
+    NutTabPane: typeof import('nutui-uniapp/components/tabpane/tabpane.vue')['default']
+    NutTabs: typeof import('nutui-uniapp/components/tabs/tabs.vue')['default']
   }
 }
